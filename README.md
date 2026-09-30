@@ -1,40 +1,62 @@
 # DocxMerge
 
-A simple, free Windows app for combining DOCX documents. Drag your files into the window, arrange them in the order you want, and save them as one document.
+DocxMerge is a free Windows app that combines multiple DOCX documents into one file. Drag in your documents, arrange them in the order you want, and save the result.
 
-Built with a minimal interface for people who just want to get the job done—no account, subscription, evaluation license, or Python script required.
+The app processes documents locally. Your original files are not changed.
 
 ## Features
 
-- Drag and drop `.docx` files into the app
-- Drag documents to change their order
-- Remove a document with one click
-- Merge and save with a single button
-- Slovak interface with subtle animations
-- Use your own PNG logo in the app and ICO icon for the executable
-- Processes documents locally and leaves the original files unchanged
+- Simple English interface
+- Drag and drop DOCX files into the window
+- Drag documents in the list to change their order
+- Remove a document with the `×` beside its name
+- Subtle interface animations
+- Optional custom logo and executable icon
+- No Python, Aspose.Words, subscription, or evaluation license
+- No DOC-to-DOCX converter
 
-## Getting started
+## Download and use
 
-Download the Windows x64 executable from the **Releases** page, if one is available. Open the app, add at least two DOCX files, arrange them from top to bottom, then click **Zlúčiť a uložiť** (“Merge and save”).
+1. Download the Windows x64 application ZIP from the [Releases](../../releases) page.
+2. Extract the ZIP.
+3. Open `DocxMerge.exe`.
+4. Add at least two `.docx` files.
+5. Drag their names into the order you want. Documents merge from top to bottom.
+6. Click **Merge and save** and choose where to save the result.
 
-Only `.docx` files are supported. The app does not convert older `.doc` files.
+The published self-contained build does not require a separate .NET installation. The provided build is for x64 Windows computers.
+
+> **Check the result:** Complex Word formatting, such as headers, page layouts, fields, or conflicting styles, may change during merging. Review important documents before using or sharing them.
 
 ## Build from source
 
-1. Install the .NET 10 SDK.
-2. Download or clone this repository.
-3. Optionally place `logo.png` and a valid `app.ico` in the project folder.
-4. Run `Build.bat`.
+Building requires the .NET 10 SDK on Windows. Open a terminal in the project folder and run:
 
-The standalone Windows x64 executable will be created in `publish-x64`.
+```bat
+dotnet restore DocxMerge.csproj --configfile NuGet.Config
+dotnet publish DocxMerge.csproj -c Release -r win-x64 --self-contained true -o publish-x64
+```
 
-## Important note about formatting
+The finished executable will be in `publish-x64`.
 
-DocxMerge aims to preserve document content and section information, but DOCX files can contain complex styles, headers, fields, and layouts. **Always review the merged result**, especially before sharing or printing important documents.
+You can also double-click `Build.bat` if it is included in your source download.
+
+### Custom images
+
+To display your logo inside the app, place a PNG named `logo.png` beside `DocxMerge.csproj` before building.
+
+To set the executable’s icon, place a genuine Windows icon file named `app.ico` beside `DocxMerge.csproj` before building. Renaming a PNG to `.ico` is not enough.
+
+Both image files are optional.
+
+## Limitations
+
+- Input files must be `.docx`; legacy `.doc` files are not supported.
+- Perfect preservation of every DOCX feature cannot be guaranteed.
+- This repository provides the Windows x64 build instructions. Other processor architectures require a separate publish build.
 
 ## Credits
 
-Created by Seb Matt / Krabica333 — [krabicahub.xyz](https://www.krabicahub.xyz)
-
 © 2026 Seb Matt www.krabicahub.xyz
+
+DocxMerge uses third-party open-source dependencies. Their licenses remain applicable when the app is redistributed.
