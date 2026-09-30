@@ -35,6 +35,6 @@ DocxMerge aims to preserve document content and section information, but DOCX fi
 
 ## Credits
 
-Created by Seb Matt — [krabicahub.xyz](https://www.krabicahub.xyz)
+Created by Seb Matt / Krabica333 — [krabicahub.xyz](https://www.krabicahub.xyz)
 
 © 2026 Seb Matt www.krabicahub.xyz
