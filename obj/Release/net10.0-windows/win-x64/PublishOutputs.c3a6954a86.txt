@@ -1,0 +1,2 @@
+C:\Users\Seb\Documents\App\publish-x64\DocxMerge.pdb
+C:\Users\Seb\Documents\App\publish-x64\DocxMerge.exe

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "PTdL4vVAbco=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Seb\\Documents\\App\\DocxMerge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Seb\\.nuget\\packages\\documentformat.openxml\\2.14.0\\documentformat.openxml.2.14.0.nupkg.sha512",
+    "C:\\Users\\Seb\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.12\\microsoft.net.illink.tasks.10.0.12.nupkg.sha512",
+    "C:\\Users\\Seb\\.nuget\\packages\\openxmlpowertools.netstandard\\4.6.0\\openxmlpowertools.netstandard.4.6.0.nupkg.sha512",
+    "C:\\Users\\Seb\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.12\\microsoft.netcore.app.runtime.win-x64.10.0.12.nupkg.sha512",
+    "C:\\Users\\Seb\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.12.nupkg.sha512",
+    "C:\\Users\\Seb\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\microsoft.aspnetcore.app.runtime.win-x64.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
