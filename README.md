@@ -1,6 +1,6 @@
 # DocxMerge
 
-DocxMerge is a free, open-source Windows app that combines multiple DOCX documents into one file. Add your documents, arrange them in the order you want, and save the result.
+DocxMerge is a free, open-source Windows app that combines multiple DOCX documents into one file. Add or drag in your documents, arrange them in the order you want, and save the result.
 
 Documents are processed locally. Your original files are not changed.
 
@@ -33,7 +33,6 @@ Windows may show **“Windows protected your PC”** or call DocxMerge an **“u
 Download the app only from this repository’s [Releases](../../releases) page. If you trust the file you downloaded, you can select **More info** → **Run anyway**. Do not disable SmartScreen for your entire computer.
 
 If Windows reports that the file contains malware, rather than simply calling it unrecognized, do not run it.
-
 > **Check the result:** Complex Word formatting, such as headers, page layouts, fields, or conflicting styles, may change during merging. Review important documents before using or sharing them.
 
 ## Build from source
@@ -47,7 +46,7 @@ dotnet publish DocxMerge.csproj -c Release -r win-x64 --self-contained true -o p
 
 The finished executable will be in `publish-x64`.
 
-You can also double-click `Build.bat` if it is included in the source download.
+You can also double-click `Build.bat` if it is included in your source download.
 
 ### Custom images
 
@@ -61,7 +60,7 @@ Both image files are optional.
 
 - Input files must be `.docx`; legacy `.doc` files are not supported.
 - Perfect preservation of every DOCX feature cannot be guaranteed.
-- This repository provides Windows x64 build instructions. Other processor architectures require a separate publish build.
+- This repository provides the Windows x64 build instructions. Other processor architectures require a separate publish build.
 
 ## License
 
@@ -72,3 +71,5 @@ Third-party dependencies retain their own licenses. The MIT License for DocxMerg
 ## Credits
 
 © 2026 Seb Matt [www.krabicahub.xyz](https://www.krabicahub.xyz)
+
+DocxMerge uses third-party open-source dependencies. Their licenses remain applicable when the app is redistributed.
