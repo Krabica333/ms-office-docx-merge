@@ -60,6 +60,12 @@ To set the executable’s icon, place a genuine Windows icon file named `app.ico
 
 Both image files are optional.
 
+## Screenshots
+
+<img width="1918" height="1027" alt="Screenshot 2026-10-01 020847" src="https://github.com/user-attachments/assets/9504ae70-d420-48df-b400-1bcc8b55bb28" />
+<img width="1917" height="1030" alt="Screenshot 2026-10-01 020908" src="https://github.com/user-attachments/assets/94911104-a495-44ec-83a7-cbab7e061818" />
+
+
 ## Limitations
 
 - Input files must be `.docx`; legacy `.doc` files are not supported.
