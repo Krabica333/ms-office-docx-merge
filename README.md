@@ -1,5 +1,9 @@
 # DocxMerge
 
+<a href="https://get.microsoft.com/installer/download/9MWH9KSG5MCB?referrer=appbadge" target="_self" >
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
+
 DocxMerge is a free, open-source Windows app that combines multiple DOCX documents into one file. Add or drag in your documents, arrange them in the order you want, and save the result.
 
 Documents are processed locally. Your original files are not changed.
