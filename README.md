@@ -80,7 +80,7 @@ Third-party dependencies retain their own licenses. The MIT License for DocxMerg
 
 ## AI Development Transparency
 
-In the spirit of open-source transparency, this application was built using AI assistance
+This application was built using AI assistance.
 
 ## Credits
 
