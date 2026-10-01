@@ -78,6 +78,10 @@ DocxMerge's original source code is licensed under the MIT License. See [LICENSE
 
 Third-party dependencies retain their own licenses. The MIT License for DocxMerge does not replace those licenses. Make sure you have the right to redistribute any custom logo or icon you include.
 
+## AI Development Transparency
+
+In the spirit of open-source transparency, this application was built using AI assistance
+
 ## Credits
 
 © 2026 Seb Matt [www.krabicahub.xyz](https://www.krabicahub.xyz)
